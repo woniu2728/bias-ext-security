@@ -1,0 +1,2 @@
+[bias.extensions]
+security = bias_ext_security.backend.ext:extend
