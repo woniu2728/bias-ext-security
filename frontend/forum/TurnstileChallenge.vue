@@ -9,7 +9,7 @@
 <script setup>
 import {
   getUiCopy,
-} from '@bias/forum'
+} from '@bias/core/forum'
 import {
   nextTick,
   onBeforeUnmount,

@@ -1,4 +1,4 @@
-import { extendAdmin } from '@bias/admin'
+import { extendAdmin } from '@bias/core/admin'
 
 const SECURITY_PAGE_KEY = 'security.settings'
 
