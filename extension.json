@@ -20,5 +20,8 @@
   "extra": {
     "auto_install": true,
     "auto_enable": true
+  },
+  "security": {
+    "capabilities_notice": "Security extension; can add anti-abuse checks and verification challenges to public workflows."
   }
 }
