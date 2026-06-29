@@ -2,8 +2,10 @@
 name = "bias-ext-security"
 version = "0.1.0"
 dependencies = ["bias-core>=0.1,<0.2"]
+
 [project.entry-points."bias.extensions"]
 security = "bias_ext_security.backend.ext:extend"
+
 [tool.setuptools]
 include-package-data = true
 
@@ -14,5 +16,11 @@ include = ["bias_ext_security*"]
 [tool.setuptools.data-files]
 "bias_extensions/security" = ["extension.json"]
 "bias_extensions/security/frontend/admin" = ["frontend/admin/index.js"]
-"bias_extensions/security/frontend/forum" = ["frontend/forum/index.js", "frontend/forum/nodeSdk.js", "frontend/forum/sdk.js", "frontend/forum/securityRuntime.js", "frontend/forum/turnstile.js", "frontend/forum/TurnstileChallenge.vue"]
-
+"bias_extensions/security/frontend/forum" = [
+  "frontend/forum/TurnstileChallenge.vue",
+  "frontend/forum/index.js",
+  "frontend/forum/nodeSdk.js",
+  "frontend/forum/sdk.js",
+  "frontend/forum/securityRuntime.js",
+  "frontend/forum/turnstile.js",
+]
